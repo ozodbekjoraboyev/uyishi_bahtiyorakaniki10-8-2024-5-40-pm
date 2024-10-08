@@ -164,7 +164,18 @@ input[type=checkbox]:checked + .sidebar {
     margin: 0 auto;
     justify-content: center;
   }
-  .main_ful {
+  .card {
+    display: none;
+    flex-wrap: wrap;
+    gap: 60px;
+  }
+  .card img {
+    padding-bottom: 30px;
+  }
+  .card h3 {
+    padding-bottom: 10px;
+  }
+  .card .main_ful {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -226,7 +237,19 @@ input[type=checkbox]:checked + .sidebar {
   .burger img {
     display: block;
   }
-  .nav_btn {
+  .burger .secshn {
+    display: none;
+  }
+  .burger .medya1 {
+    background-color: antiquewhite;
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 20px;
+    border-radius: 8px;
+  }
+  .burger .nav_btn {
     display: none;
   }
 }
